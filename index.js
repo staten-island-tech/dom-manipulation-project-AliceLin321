@@ -1,6 +1,10 @@
 const DOMselectors = {
-    title: document.getElementsById("title"),
-    artist: document.getElementById("artist"),
-    url:  document.getElementById ("url"),
-    display:  document.getElementById ("display")
+  button: document.getElementsById("btn"),
+  text: document.getElementById("text"),
+  box: document.getElementById("BBB"),
+  points: document.getElementById(".point"),
 };
+function backgroundAndText(background, text) {
+    background.style.backgroundColor = "red";
+    text.textConten
+}
