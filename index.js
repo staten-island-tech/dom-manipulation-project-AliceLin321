@@ -12,5 +12,14 @@ function backgroundAndText(background, text) {
   text.style.fontSize = "40px";
 }
 DOMselectors.btn.addEventListener("click", function () {
-  backgroundAndText(DOMselectors.box, DOMselectors.text);
+ function input() {
+  DOMselectors.display.insertAdjacentHTML("beforeend"),
+    (
+      <div class="display-card">
+        <img class="display-img" src=${DOMselectors.url.value} />
+        <h2 class="display-artist">${DOMselectors.artist.value}</h2>
+        <h3 class="display-album">${DOMselectors.album.value}</h3>
+        <button class="remove btn"></button>
+      </div>
+    );
 });
