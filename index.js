@@ -17,9 +17,12 @@ function input() {
     `<div class="display-card">
         <img class="display-img" src=${DOMselectors.url.value} />
         <h2 class="display-artist">${DOMselectors.artist.value}</h2>
-        <h3 class="display-album">${DOMselectors.album.value}</h3>
-        <button class="remove btn"></button>
+        <h3 class="display-album">${DOMselectors.title.value}</h3>
+        <button class="remove btn">remove</button>
       </div>`
   );
 }
-console.log(yam);
+function nocard() {
+  const element = document.getElementById("all"),
+  
+}
