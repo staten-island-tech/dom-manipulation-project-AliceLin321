@@ -22,7 +22,3 @@ function input() {
       </div>`
   );
 }
-function nocard() {
-  const element = document.getElementById("all"),
-  
-}
