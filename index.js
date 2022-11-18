@@ -21,4 +21,5 @@ function input() {
         <button class="remove btn">remove</button>
       </div>`
   );
-}
+} 
+function deletion() 
