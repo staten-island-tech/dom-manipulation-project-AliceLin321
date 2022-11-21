@@ -21,5 +21,14 @@ function input() {
         <button class="remove btn">remove</button>
       </div>`
   );
-} 
-function deletion() 
+  card();
+}
+function card() {
+  let remove = document.querySelectorAll(".remove");
+  console.log(remove);
+  remove.forEach((el) => {
+    el.addEventListener("click", function (el) {
+      this.parentElement.remove();
+    });
+  });
+}
